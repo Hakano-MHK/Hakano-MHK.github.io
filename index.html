@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <title>Hakano-MHK.github.io</title>
 </head>
 <body>
-    <h1>Lorem.</h1>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Mehmet Hakan KISA Web Sayfası</strong></li>
+        </ul>
+        <ul>
+            <li><a target="_blank" href="https://www.udemy.com/user/hakanyalcinkaya/">Udemy</a></li>
+            <li><a target="_blank" href="https://hakanyalcinkaya.medium.com" role="button">Medium</a></li>
+        </ul>
+    </nav>
+    <main class="container"></main>
+    <article>
+        <header> <!-- class="container" olunca resmin boyutu verilen sayılara göre olmuyor !
+            <img class="container" src="https://picsum.photos/240/130" alt="Emmet ile HTML ve CSS'te Hızlı Kodlama Teknikleri Öğrenin">
+            -->
+            <a target="_blank" href="https://www.udemy.com/user/hakanyalcinkaya/">
+                <img class="container" src="https://picsum.photos/id/1/240/130"
+                    alt="Emmet ile HTML ve CSS'te Hızlı Kodlama Teknikleri Öğrenin">
+            </a>
+        </header>
+        <!-- 
+                class="container" olunca resmin boyutu verilen sayılara göre olmuyor !
+                <img class="container" src="https://picsum.photos/240/130" alt="Emmet ile HTML ve CSS'te Hızlı Kodlama Teknikleri Öğrenin">
+            -->
+    </article>
+    <article data-theme="dark">
+        <header>
+            <a target="_blank" href="https://hakanyalcinkaya.medium.com">
+                Markdown Öğren: Basit ama Çok Güçlü Yazı Biçimi
+            </a>
+        </header>
+        <a target="_blank" href="https://hakanyalcinkaya.medium.com">
+            <img src="https://picsum.photos/id/2/240/130" alt="Markdown Öğren: Basit ama Çok Güçlü Yazı Biçimi">
+        </a>
+    </article>
 </body>
 </html>
